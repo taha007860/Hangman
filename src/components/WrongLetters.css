@@ -1,0 +1,26 @@
+.wrong-letters {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .wrong-letter {
+    margin-right: 5px;
+  }
+  
+  .wrong-letters p {
+    margin: 0; /* Remove default margin for paragraphs */
+    margin-top: 5px;
+  }
+  @media only screen and (max-width: 768px) {
+    .wrong-letters {
+      font-size: 16px; /* Adjust font size for tablets */
+    }
+  }
+  
+  /* Media queries for mobile */
+  @media only screen and (max-width: 480px) {
+    .wrong-letters {
+      font-size: 14px; /* Adjust font size for mobile */
+    }
+  }
